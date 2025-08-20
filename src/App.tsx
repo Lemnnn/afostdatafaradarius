@@ -2,7 +2,7 @@ import NotYetPage from './pages/not-yet';
 import YesPage from './pages/yes';
 
 function App() {
-  const showYesPage = true; // toggle this to true to show YesPage
+  const showYesPage = false;
 
   if (showYesPage) {
     return <YesPage />;
